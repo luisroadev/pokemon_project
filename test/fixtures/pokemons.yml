@@ -1,0 +1,155 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: Bulbasaur
+  type_1: Grass
+  type_2: Poison
+  total: 318
+  hp: 45
+  attack: 49
+  defense: 49
+  sp_atk: 65
+  sp_def: 65
+  speed: 45
+  generation: 1
+  legendary: false
+
+two:
+  name: Ivysaur
+  type_1: Grass
+  type_2: Poison
+  total: 405
+  hp: 60
+  attack: 62
+  defense: 63
+  sp_atk: 80
+  sp_def: 80
+  speed: 60
+  generation: 1
+  legendary: false
+
+three:
+  name: Venusaur
+  type_1: Grass
+  type_2: Poison
+  total: 525
+  hp: 80
+  attack: 82
+  defense: 83
+  sp_atk: 100
+  sp_def: 100
+  speed: 80
+  generation: 1
+  legendary: false
+
+four:
+  name: Ivysaur
+  type_1: Grass
+  type_2: Poison
+  total: 405
+  hp: 60
+  attack: 62
+  defense: 63
+  sp_atk: 80
+  sp_def: 80
+  speed: 60
+  generation: 1
+  legendary: false
+
+five:
+  name: VenusaurMega Venusaur
+  type_1: Grass
+  type_2: Poison
+  total: 625
+  hp: 80
+  attack: 100
+  defense: 123
+  sp_atk: 122
+  sp_def: 120
+  speed: 80
+  generation: 1
+  legendary: false
+
+six:
+  name: Charmander
+  type_1: Fire
+  type_2:
+  total: 309
+  hp: 39
+  attack: 52
+  defense: 43
+  sp_atk: 60
+  sp_def: 50
+  speed: 65
+  generation: 1
+  legendary: false
+
+seven:
+  name: Charmeleon
+  type_1: Fire
+  type_2:
+  total: 405
+  hp: 58
+  attack: 64
+  defense: 58
+  sp_atk: 80
+  sp_def: 65
+  speed: 80
+  generation: 1
+  legendary: false
+
+eight:
+  name: Charizard
+  type_1: Fire
+  type_2: Flying
+  total: 534
+  hp: 78
+  attack: 84
+  defense: 78
+  sp_atk: 109
+  sp_def: 85
+  speed: 100
+  generation: 1
+  legendary: false
+
+nine:
+  name: Squirtle
+  type_1: Water
+  type_2:
+  total: 314
+  hp: 44
+  attack: 48
+  defense: 65
+  sp_atk: 50
+  sp_def: 64
+  speed: 43
+  generation: 1
+  legendary: false
+
+ten:
+  name: Wartortle  
+  type_1: Water
+  type_2:
+  total: 405
+  hp: 59
+  attack: 63
+  defense: 80
+  sp_atk: 65
+  sp_def: 80
+  speed: 58
+  generation: 1
+  legendary: false
+
+eleven:
+  name: Blastoise
+  type_1: Water
+  type_2:
+  total: 530
+  hp: 79
+  attack: 83
+  defense: 100
+  sp_atk: 85
+  sp_def: 105
+  speed: 78
+  generation: 1
+  legendary: false
