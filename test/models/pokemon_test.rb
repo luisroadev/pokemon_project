@@ -23,6 +23,7 @@ class PokemonTest < ActiveSupport::TestCase
 
     pokemon_attributes = pokemons(:four).attributes.except('id', 'created_at', 'updated_at')
     pokemon_attributes['type_2'] = nil
+    pokemon_attributes['name'] = 'Charizard Large'
 
     pokemon = Pokemon.new(pokemon_attributes)
 

@@ -31,7 +31,7 @@ class PokemonsControllerTest < ActionDispatch::IntegrationTest
 
   test "should create pokemon" do
     assert_difference("Pokemon.count") do
-      post pokemons_url, params: { pokemon: { attack: @pokemon.attack, defense: @pokemon.defense, generation: @pokemon.generation, hp: @pokemon.hp, legendary: @pokemon.legendary, name: @pokemon.name, sp_atk: @pokemon.sp_atk, sp_def: @pokemon.sp_def, speed: @pokemon.speed, total: @pokemon.total, type_1: @pokemon.type_1, type_2: @pokemon.type_2 } }, as: :json
+      post pokemons_url, params: { pokemon: { attack: @pokemon.attack, defense: @pokemon.defense, generation: @pokemon.generation, hp: @pokemon.hp, legendary: @pokemon.legendary, name: "Charizard Evolution", sp_atk: @pokemon.sp_atk, sp_def: @pokemon.sp_def, speed: @pokemon.speed, total: @pokemon.total, type_1: @pokemon.type_1, type_2: @pokemon.type_2 } }, as: :json
     end
 
     assert_response :created
@@ -52,6 +52,6 @@ class PokemonsControllerTest < ActionDispatch::IntegrationTest
       delete pokemon_url(@pokemon), as: :json
     end
 
-    assert_response :no_content
+    assert_response :success
   end
 end
